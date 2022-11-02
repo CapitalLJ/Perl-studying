@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+ while(<>){
+ 
+    if(/fred|Fred/) {
+        print "匹配到了fred";
+        }else{
+            print "未匹配到fred\n";
+        }   
+}

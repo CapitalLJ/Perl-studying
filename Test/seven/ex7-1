@@ -1,13 +1,13 @@
 #!/usr/bin/perl
 # use v5.34;
 # state $a;
-while(<>){
-    # chomp;
-    print $_;
-    chomp $_;
-    print $_;
+# while(<>){
+#     # chomp;
+#     print $_;
+    # chomp $_;
+    # print $_;
     # $a .=$_;
- }
+#  }
 #  print $a;
 
 # my @new;
