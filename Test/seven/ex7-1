@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+# use v5.34;
+# state $a;
+while(<>){
+    # chomp;
+    print $_;
+    chomp $_;
+    print $_;
+    # $a .=$_;
+ }
+#  print $a;
+
+# my @new;
+# foreach $_(<>){
+#     chomp($_);
+#     push @new, $_;
+#     print @new;
+# }
+
+
+# chomp (@a);
+
+# @a= qw/aaaa bbbb cccc dddd eeee/;
+# # while(<>){
+
+#  if(@a =~ /fred/){
+#     print "匹配到了fred";
+#     }else{
+#         print "未匹配到fred\n";
+#     }   
+
+# }
+
