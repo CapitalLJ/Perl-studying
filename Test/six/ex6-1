@@ -1,0 +1,33 @@
+#!/use/bin/perl
+# sub new_user{
+#     print "请输入新用户的姓：\n";
+#     chomp(my $firstname =<STDIN>);
+#     print "请输入新用户的名字：\n";
+#     chomp(my $firstname =<STDIN>);
+# }
+
+# $
+
+# print "输入新用户请按1，查找旧用户请按2：\n";
+# chmop($n=<STDIN>);
+# if
+
+my %user_name = (
+    xiaoxia =>"liu",
+    jing =>"zhou",
+    lingjie=>"lei",
+    saixi=>"li",
+);
+
+print "请输入用户的名字：\n";
+chomp($name=<STDIN>);
+print "该用户的姓为：$user_name{$name}";
+
+
+
+
+
+
+
+
+

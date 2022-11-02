@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+
+
+
+print "请输入单词串，一行一个:\n";
+chomp(@input=<STDIN>);
+foreach(@input){
+    $count{$_}+= 1;
+}
+
+foreach $key (sort keys %count){
+    $value=$count{$key};
+    print "$key => $value \n";
+}
+
+
+
+
+
+
+
+
+
+
+

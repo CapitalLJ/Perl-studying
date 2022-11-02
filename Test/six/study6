@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+# $family_name{"fred"}="flintstone";
+# print $family_name{fred};
+$family_name{"liu"}="xiaoxia";
+$family_name{"lei"}="lingjie";
+$family_name{"li"}="yong";
+# @arr=%family_name;
+# print "@arr";
+# while(($key,$value)=each %family_name){
+#     print "$key =>$value\n";
+# }
+@k=keys %family_name;
+print "@k"
+
+
+
+
+
