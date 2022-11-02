@@ -1,0 +1,18 @@
+#！/uar/bin/perl
+sub total{
+    my $sub=0;
+    foreach(@_){
+        $sub+=$_;
+    }
+    $sub;
+}
+
+my @fred =qw{1 3 5 7 9};
+print @fred;
+# my $fred_total = &total(@fred);
+# print "The total of \@fred is $fred_total.\n";
+print "Enter some numbers on separate lines:\n ";
+@ss=<STDIN>;
+my $user_total=&total(@ss);
+# my $user_total=&total(<STDIN>);
+ print "The total of those numbers is $user_total .\n";

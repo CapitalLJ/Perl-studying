@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+# chomp(@ex=<STDIN>);
+# @ex2=reverse @ex;
+# print "@ex2";
+print reverse <STDIN>;

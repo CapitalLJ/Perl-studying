@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+# foreach(<STDIN>){
+#     print "I saw $_";
+# }
+
+# printf "%g  %g  %g\n" , 5/2, 51/17, 51**17;
+
+
+while (<>){
+    chomp;
+    print "It was $_ that I saw!\n";
+}
+
+
+
+
+
+

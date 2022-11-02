@@ -1,0 +1,15 @@
+#！/uar/bin/perl
+sub total{
+    my $sub=0;
+    foreach(@_){
+        $sub+=$_;
+    }
+    $sub;
+}
+
+print "请输入求和开始的数字：\n";
+chomp($n1=<STDIN>);
+print "请输入求和结束的数字：\n";
+chomp($n2=<STDIN>);
+my $user_total=&total($n1..$n2);
+print "The total of those numbers is $user_total .\n";

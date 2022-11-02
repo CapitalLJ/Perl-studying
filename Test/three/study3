@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+# $fred[0]="nihao";
+# $fred[1]="lihuanying";
+# print "asd". @fred . "asds\n";
+
+# @fred=qw(one two three four);
+# print @fred. "sadsad" ;
+# $y ="a4*2";
+# print $fred[$y ];
+# print $y*2;
+# @numbers = qw(one two three );
+# print @numbers , "\n";
+
+# foreach $jias (@numbers){
+#     $jias=$jias."s\n";
+# }
+# print @numbers
+
+# @wilma =(1,2,3,4,5);
+# print @wilma;
+# @wilma=undef;
+# print @wilma
+# $li = <STDIN>;
+# print $li;
+# chomp(@line=<STDIN>);
+# print @line[0]

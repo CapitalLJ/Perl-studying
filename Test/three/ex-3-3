@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+chomp(@lines=<STDIN>);
+@outline =sort(@lines);
+print "\n";
+print "@outline\n";
+foreach $q (0..@outline-1){
+    print "$outline[$q]\n";
+}

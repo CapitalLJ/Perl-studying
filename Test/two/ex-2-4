@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+print "请输入第一个数：\n";
+chomp($n1 = <STDIN>);
+print "请输入第二个数：\n";
+chomp($n2 = <STDIN>);
+print "两个数的乘积为：". $n1*$n2  ."\n"; 

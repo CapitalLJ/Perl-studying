@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+print "请输入圆的半径：";
+chomp($radius = <STDIN>) ;
+$C = $radius * 2 * 3.141592654 ;
+print "圆的周长为： $C \n";

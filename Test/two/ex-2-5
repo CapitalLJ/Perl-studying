@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+print "请输入第一个数：\n";
+chomp($l1 = <STDIN>);
+print "请输入字符串: \n";
+$l2 = <STDIN>;
+print "$l2" x $l1 ;

@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+$a1 ="sandfsakdaks .\n \n";
+chomp($a1) ;
+print $a1 ;

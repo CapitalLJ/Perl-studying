@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+@names=qw(fred betty barney dino wilma pebbles bamm-bamm);
+chomp(@numbers=<STDIN>);
+# $n = @numbers-1;
+print "\n";
+foreach $i (@numbers) {
+    print "$names[$i-1]"."\t";
+}
+print "\n";
