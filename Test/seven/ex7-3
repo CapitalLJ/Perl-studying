@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+while(<>){
+    print "含有.\n" if /\./;
+}

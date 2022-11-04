@@ -1,0 +1,11 @@
+#！/usr/bin/perl
+# $a ="(";
+# if (/$a/){
+#     print "kasndlsaknf";
+# }
+while(<STDIN>){
+    chomp;
+    if(/$ARGV[0]/){
+        print "asfasdas";
+    }
+}

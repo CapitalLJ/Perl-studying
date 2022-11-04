@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+while(<>){
+    if(/\A[A-Z][a-z]+/){
+         print "匹配成功！\n";  
+    }
+}
