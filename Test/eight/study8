@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+$_="Bred aksln \n Fred";
+# while(<>){
+    if(/Bred.*Fred/s){
+        print "ksadlkashd";
+    }
+# }
